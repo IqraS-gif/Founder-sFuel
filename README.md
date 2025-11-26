@@ -64,6 +64,11 @@ From pitch deck roasting to investor matching and startup validation — Founder
 * Pinecone 
 * Sentence Transformers
 * PDF/Text ingestion
+
+### **Deployment**
+
+* Frontend on Vercel
+* Backend on Hugging Face Spaces
   
 ---
 
