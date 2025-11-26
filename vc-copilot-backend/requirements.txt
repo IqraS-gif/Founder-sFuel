@@ -1,0 +1,28 @@
+# vc-copilot-backend/requirements.txt
+
+# FastAPI essentials
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-multipart
+
+# File Processing
+pdfminer.six
+python-pptx
+beautifulsoup4
+# ML and NLP
+sentence-transformers
+transformers
+torch
+textstat
+pandas
+numpy
+scikit-learn
+joblib
+pinecone-client     # <-- NEW: For RAG
+google-search-results # <-- NEW: For SerpApi
+
+# AI and Environment
+google-generativeai
+python-dotenv
