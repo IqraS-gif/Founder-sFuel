@@ -36,8 +36,9 @@ From pitch deck roasting to investor matching and startup validation — Founder
 | **🔮 Success Predictor**        | ML model with SHAP explainability to estimate your fundraising success probability and show why the model predicts that outcome.                              |
 
 ---
+## 📸 Poster presentation 
 
-<img width="600" height="600" alt="Screenshot 2025-11-25 213722" src="https://github.com/user-attachments/assets/dc120f48-5d4c-4124-9155-0289d7b97b1e" />
+<img width="550" height="550" alt="Screenshot 2025-11-25 213722" src="https://github.com/user-attachments/assets/dc120f48-5d4c-4124-9155-0289d7b97b1e" />
 
 
 ## 🛠️ Tech Stack
@@ -105,7 +106,6 @@ GEMINI_API_KEY=
 SERPAPI_API_KEY=
 
 PINECONE_API_KEY=
-
 ```
 ## 🖥️ Frontend Setup
 
