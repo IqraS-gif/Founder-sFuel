@@ -1,3 +1,10 @@
+# 1. MUST IGNORE: Virtual Environments (The #1 cause of crashes)
+venv/
+env/
+.venv/
+__pycache__/
+
+
 # Logs
 logs
 *.log
@@ -33,6 +40,11 @@ dist-ssr
 *.sln
 *.sw?
 
+# Python Virtual Environments (Crucial!)
+venv/
+env/
+.venv/
+__pycache__/
 
 .env
 
@@ -40,3 +52,38 @@ service-account.json
 *.pkl
 *.db
 secret*
+
+# Added by Apify CLI
+storage
+.venv
+# Apify storage (never upload)
+storage/
+
+# Large datasets
+*.csv
+*.tsv
+*.xlsx
+*.zip
+
+# Model files
+*.pkl
+*.model
+*.db
+*.bin
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs
+*.log
+
+# System/editor files
+.DS_Store
+.vscode/
+.idea/

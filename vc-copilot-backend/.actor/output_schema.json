@@ -1,0 +1,12 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Founders Fuel Analysis Output",
+    "properties": {
+        "analysis_results": {
+            "type": "string",
+            "title": "Full Analysis Report 📊",
+            "description": "The complete 7-domain evaluation in JSON format.",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

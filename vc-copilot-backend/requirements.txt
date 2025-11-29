@@ -20,9 +20,9 @@ pandas
 numpy
 scikit-learn
 joblib
-pinecone-client     # <-- NEW: For RAG
+pinecone   # <-- NEW: For RAG
 google-search-results # <-- NEW: For SerpApi
-
+apify-client
 # AI and Environment
 google-generativeai
 python-dotenv

@@ -1,0 +1,8 @@
+{
+	"actorSpecification": 1,
+	"name": "founders-fuel-evaluator",
+	"version": "0.0",
+	"buildTag": "latest",
+	"environmentVariables": {},
+	"output": "./output_schema.json"
+}

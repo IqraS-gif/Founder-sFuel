@@ -1,0 +1,31 @@
+# Apify storage (never upload)
+storage/
+
+# Large datasets
+*.csv
+*.tsv
+*.xlsx
+*.zip
+
+# Model files
+*.pkl
+*.model
+*.db
+*.bin
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs
+*.log
+
+# System/editor files
+.DS_Store
+.vscode/
+.idea/

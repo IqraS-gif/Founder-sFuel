@@ -1,0 +1,22 @@
+{
+    "title": "Founders Fuel - AI Startup Evaluator",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "startup_idea": {
+            "title": "Startup Idea",
+            "type": "string",
+            "description": "Describe the startup idea, problem, and solution.",
+            "editor": "textarea",
+            "prefill": "A subscription service for coffee lovers that uses AI to predict which beans they will like based on their Spotify listening history."
+        },
+        "startup_name": {
+            "title": "Startup Name",
+            "type": "string",
+            "description": "Name of the startup (optional).",
+            "default": "My Startup",
+            "editor": "textfield"
+        }
+    },
+    "required": ["startup_idea"]
+}

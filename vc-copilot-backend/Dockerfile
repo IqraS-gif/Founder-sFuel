@@ -16,5 +16,8 @@ COPY . /code
 RUN mkdir -p /code/cache && chmod 777 /code/cache
 ENV TRANSFORMERS_CACHE=/code/cache
 
-# Start the application on port 7860 (Hugging Face default)
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "7860"]
+# # Start the application on port 7860 (Hugging Face default)
+# CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "7860"]
+
+# -- CHANGE COMMAND TO RUN ACTOR SCRIPT --
+CMD ["python", "actor_main.py"]
